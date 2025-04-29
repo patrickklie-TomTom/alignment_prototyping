@@ -1,0 +1,11 @@
+name: alignment_prototyping
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pdal
+  - open3d
+  - numpy
+  - pybind11
+  - pytest
+  - scipy
