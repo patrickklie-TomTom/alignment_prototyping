@@ -9,3 +9,4 @@ dependencies:
   - pybind11
   - pytest
   - scipy
+  - gtsam
