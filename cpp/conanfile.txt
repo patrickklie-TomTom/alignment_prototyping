@@ -1,12 +1,13 @@
 [requires]
-gtsam/4.2.0
+gtsam/4.2
 ceres-solver/2.2.0
 eigen/3.4.0
-cgal/5.6
+cgal/6.0.1
+pybind11/2.10.4
 
 [generators]
 cmake
 
 [options]
-ceres-solver:shared=True
-gtsam:shared=True
+cceres-solver/*:shared=True
+gtsam/*:shared=True
